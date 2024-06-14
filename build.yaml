@@ -17,8 +17,6 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
-board: [ "nice_nano_v2" ]
-shield: [ "ergodox_left", "ergodox_right" ]
 include:
   - board: nice_nano_v2
     shield: ergodox_left
