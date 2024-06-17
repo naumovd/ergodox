@@ -13,7 +13,7 @@
 &kp TAB      &kp Q      &kp W     &kp E     &kp R        &kp T      &kp LBKT                &kp RBKT                &kp Y       &kp U           &kp I      &kp O    &kp P      &kp EQUAL
 &kp RET      &kp A      &kp S     &kp D     &kp F        &kp G      &kp C_PREV              &kp C_VOLUME_UP         &kp H       &kp J           &kp K      &kp L    &kp SEMI   &kp RET
 &kp LSHFT    &kp Z      &kp X     &kp C     &kp V        &kp B      &kp C_NEXT              &kp C_VOLUME_DOWN       &kp N       &kp M           &kp COMMA  &kp DOT  &kp FSLH   &kp RSHFT
-&lt 1 GRAVE  &kp LCTRL  &kp LALT  &kp LGUI  &lt 1 SPACE  &kp BSPC   &kp DEL                 &kp PIPE                &kp SQT     &lt 2 SPACE     &kp LEFT   &kp UP   &kp RIGHT  &kp DOWN
+&lt 1 GRAVE  &kp LCTRL  &kp LALT  &kp LGUI  &lt 1 SPACE  &kp BSPC   &kp DEL                 &kp PIPE                &kp SQT     &lt 1 SPACE     &kp LEFT   &kp UP   &kp RIGHT  &kp DOWN
             >;
         };
 
