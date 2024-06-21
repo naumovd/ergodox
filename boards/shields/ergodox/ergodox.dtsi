@@ -1,4 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <nordic/nrf52840_qiaa.dtsi>
+#include "nice_nano-pinctrl.dtsi"
+#include "arduino_pro_micro_pins.dtsi"
 
 / {
     chosen {
@@ -23,6 +26,14 @@
         compatible = "zmk,kscan-gpio-charlieplex";
         wakeup-source;
         interrupt-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN) >;
+    };
+
+    &uart0 {
+        compatible = "nordic,nrf-uarte";
+        current-speed = <115200>;
+        pinctrl-0 = <&uart0_default>;
+        pinctrl-1 = <&uart0_sleep>;
+        pinctrl-names = "default", "sleep";
     };
 
 };
