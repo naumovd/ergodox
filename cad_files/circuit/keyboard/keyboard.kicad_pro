@@ -482,7 +482,7 @@
       "plot": "gerbers/L/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../Desktop/keyboard.step",
       "svg": "",
       "vrml": ""
     },
