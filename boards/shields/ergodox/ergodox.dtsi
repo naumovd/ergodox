@@ -6,14 +6,6 @@
         zmk,matrix-transform = &default_transform;
     };
 
-    &uart0 {
-        compatible = "nordic,nrf-uarte";
-        current-speed = <115200>;
-        pinctrl-0 = <&uart0_default>;
-        pinctrl-1 = <&uart0_sleep>;
-        pinctrl-names = "default", "sleep";
-    };
-
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <14>;
