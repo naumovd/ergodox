@@ -26,7 +26,7 @@
         interrupt-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN) >;
     };
 
-    &uart0 {
+    &uart0: uart-mcumgr {
         pinctrl-0 = <&uart0_default>;
         pinctrl-1 = <&uart0_sleep>;
         status = "okay";
